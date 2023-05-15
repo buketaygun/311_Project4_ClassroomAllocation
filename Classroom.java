@@ -36,7 +36,7 @@ class Classroom extends Subject implements UniversityCampus,TestSchedulerObserve
         Scanner scan= new Scanner(System.in);
         System.out.println("Enter the date: ");
         String date= scan.nextLine();
-        if(date.equals("June 24")||date.equals("June 16")){
+        if(date.equals("June 24")||date.equals("June 16")||date.equals("October 3")){
             notifyTestScheduled(date);
         }
         for (ReservationTimes reservationTimes : reservationTimesList) {
